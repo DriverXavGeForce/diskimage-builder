@@ -1,4 +1,18 @@
 {
+  "release": {
+    "centos": {
+      "10-stream": {
+        "dhcp-client": "dhcpcd",
+        "ifupdown": ""
+      }
+    },
+    "rocky": {
+      "10": {
+        "dhcp-client": "dhcpcd",
+        "ifupdown": ""
+      }
+    }
+  },
   "family": {
     "redhat": {
       "dhcp-client": "dhclient",
